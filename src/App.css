@@ -2,9 +2,11 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  margin-bottom: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,9 +26,31 @@
   color: white;
 }
 
+
+
 .App-link {
-  color: #61dafb;
+  background: linear-gradient(to right, rgb(30, 184, 231), rgb(180, 89, 180));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent; /* Isso garante que o degradê seja visível no texto */
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
 }
+
+p{
+  background: linear-gradient(to right, rgb(30, 184, 231), rgb(180, 89, 180));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent; /* Isso garante que o degradê seja visível no texto */
+  font-size: 14px;
+  margin-top: 0;
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {

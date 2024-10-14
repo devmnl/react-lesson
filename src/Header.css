@@ -1,0 +1,91 @@
+/* Estilos básicos do header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto;  /* Mantém a proporção da imagem */
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    background: linear-gradient(to right, rgb(30, 184, 231), rgb(180, 89, 180));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent; 
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Esconder o menu-toggle por padrão */
+  .menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(30, 184, 231), rgb(180, 89, 180));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent; 
+  font-weight: bold;
+  }
+  
+  /* Estilos para telas menores (dispositivos móveis) */
+  @media (max-width: 768px) {
+    .navbar {
+      display: none; /* Esconder a navegação padrão */
+    }
+  
+    .menu-toggle {
+      display: block; /* Mostrar o ícone de menu hamburguer */
+    }
+  }
+  
+  /* Exibir o menu ao clicar no menu-toggle em telas pequenas */
+  @media (max-width: 768px) {
+    .navbar.active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+  }
+  

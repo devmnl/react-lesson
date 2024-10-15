@@ -71,6 +71,7 @@
   
     .menu-toggle {
       display: block; /* Mostrar o ícone de menu hamburguer */
+      font-size: 30px;
     }
   }
   

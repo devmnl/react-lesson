@@ -33,6 +33,10 @@
     display: flex;
     gap: 20px;
   }
+
+  .nav-links li {
+    margin: 5px 0;
+  }
   
   .nav-links li a {
     background: linear-gradient(to right, rgb(30, 184, 231), rgb(180, 89, 180));
@@ -41,7 +45,7 @@
   background-clip: text;
   color: transparent; 
     text-decoration: none;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: bold;
   }
   

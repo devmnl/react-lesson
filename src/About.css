@@ -1,0 +1,23 @@
+.about {
+    background-color: #1c1c1e; /* Cor de fundo */
+    color: #f3eded; /* Cor do texto */
+    padding: 90px 80px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .about-container {
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container */
+  }
+  
+  .about h2 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    font-size: 28px; /* Tamanho da fonte do título */
+  }
+  
+  .about p {
+    font-size: 16px;
+    margin-bottom: 15px; /* Espaçamento entre os parágrafos */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+  }
+  

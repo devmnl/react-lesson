@@ -54,7 +54,8 @@ const Footer = () => {
             </div>
             <div className="contact-item">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon" />
-              <span>Rua Pará, 269 - Guararema, SP</span>
+              <span>Rua Pará, 269 - Guararema, SP &#x1F1E7;&#x1F1F7; &#x1F1FA;&#x1F1F8;
+              </span>
             </div>
           </div>
         </div>

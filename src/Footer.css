@@ -95,5 +95,67 @@
   .social-icons a:hover {
     color: rgb(180, 89, 180);
   }
-  
+
+  /* Adicione ao seu arquivo Footer.css */
+
+/* Adicione ao seu arquivo Footer.css */
+
+.modal {
+    background: #fefefe; /* Fundo claro */
+    padding: 30px; /* Mais espaço interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    border: 2px solid #04c5e7; /* Borda verde */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+.modal h2 {
+    color: #05b9f0; /* Cor verde para o título */
+    margin-bottom: 10px;
+}
+
+.modal p {
+    font-size: 16px; /* Aumenta o tamanho do texto */
+    color: #333; /* Texto escuro para melhor legibilidade */
+    margin-bottom: 20px; /* Espaço abaixo do texto */
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos do botão Close */
+.modal button {
+    background-color: #b765ee; /* Cor de fundo verde */
+    color: white; /* Texto branco */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor pointer ao passar o mouse */
+    font-size: 16px; /* Tamanho do texto */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transições suaves */
+}
+
+.modal button:hover {
+    background-color: #04a9eb; /* Cor um pouco mais escura ao passar o mouse */
+    transform: translateY(-2px); /* Leve elevação do botão */
+}
+
+.modal button:focus {
+    outline: none; /* Remove o contorno ao focar */
+}
+
+
   

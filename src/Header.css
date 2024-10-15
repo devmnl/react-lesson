@@ -5,119 +5,118 @@
   left: 0; /* Garante que o cabeçalho comece do lado esquerdo */
   width: 100%; /* O cabeçalho ocupará toda a largura da tela */
   z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0px;
-    background-color: #1c1c1e;
-    color: #fff;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: #1c1c1e;
+  color: #fff;
+}
 
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo-img {
-    width: 50px; /* Ajuste o tamanho conforme necessário */
-    height: auto;  /* Mantém a proporção da imagem */
-    padding-left: 8px;
-  }
-  
-  .navbar {
-    display: flex;
-  }
-  
-  .nav-links {
-    margin-top: 0px;
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
 
-  .nav-links li {
-    margin: 3px 0;
-  }
-  
-  .nav-links li a {
-    background: linear-gradient(to right, rgb(30, 184, 231), rgb(180, 89, 180));
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 50px; /* Ajuste o tamanho conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+  padding-left: 8px;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 8px;
+}
+
+.nav-links {
+  margin-top: 0px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin: 3px 0;
+  padding-left: 10px;
+}
+
+.nav-links li a {
+  background: linear-gradient(to right, rgb(30, 184, 231), rgb(180, 89, 180));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  color: transparent; 
-    text-decoration: none;
-    font-size: 23px;
-    font-weight: bold;
-  }
-  
-  /* Esconder o menu-toggle por padrão */
-  .menu-toggle {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-    background: linear-gradient(to right, rgb(30, 184, 231), rgb(180, 89, 180));
+  color: transparent;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* Esconder o menu-toggle por padrão */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(30, 184, 231), rgb(180, 89, 180));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  color: transparent; 
+  color: transparent;
   font-weight: bold;
   padding: 8px;
-  }
-  
-  /* Estilos para telas menores (dispositivos móveis) */
-  @media (max-width: 768px) {
-    .navbar {
-      display: none; /* Esconder a navegação padrão */
-    }
-  
-    .menu-toggle {
-      display: block; /* Mostrar o ícone de menu hamburguer */
-      font-size: 30px;
-    }
-  }
-  
-  /* Exibir o menu ao clicar no menu-toggle em telas pequenas */
-  @media (max-width: 768px) {
-    .navbar.active {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      right: 0;
-      background-color: #1c1c1e;
-      width: 100%;
-      padding: 10px;
-    }
-  
-    .nav-links {
-      flex-direction: column;
-      gap: 10px;
-      text-align: center;
-    }
-  }
-  
+}
 
-  .social-icons {
-    margin-top: 0px;
-    margin-left: 30px;
+/* Estilos para telas menores (dispositivos móveis) */
+@media (max-width: 768px) {
+  .navbar {
+    display: none; /* Esconder a navegação padrão */
+  }
+
+  .menu-toggle {
+    display: block; /* Mostrar o ícone de menu hamburguer */
+    font-size: 30px;
+  }
+}
+
+/* Exibir o menu ao clicar no menu-toggle em telas pequenas */
+@media (max-width: 768px) {
+  .navbar.active {
     display: flex;
-    justify-content: center; /* Centraliza os ícones horizontalmente */
-    gap: 25px; /* Espaço entre os ícones */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #1c1c1e;
+    width: 100%;
+    padding: 10px;
   }
-  
-  .social-icons a {
-    color: #1EB8E7; /* Define uma cor padrão para os ícones */
-    font-size: 2rem; /* Ajusta o tamanho dos ícones */
-    transition: all 0.3s ease;
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
   }
-  
-  .social-icons a:hover {
-    color: rgb(180, 89, 180); /* Muda para a segunda cor do gradiente no hover */
-  }
-  
+}
+
+.social-icons {
+  margin-top: 0px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center; /* Centraliza os ícones horizontalmente */
+  gap: 25px; /* Espaço entre os ícones */
+}
+
+.social-icons a {
+  color: #1eb8e7; /* Define uma cor padrão para os ícones */
+  font-size: 2rem; /* Ajusta o tamanho dos ícones */
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: rgb(180, 89, 180); /* Muda para a segunda cor do gradiente no hover */
+}

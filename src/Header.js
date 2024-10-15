@@ -18,20 +18,20 @@ const Header = () => {
       </div>
       <nav className={`navbar ${menuOpen ? 'active' : ''}`}>
         <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
+          <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         {/* Seção de ícones sociais */}
       <div className="social-icons">
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/devmnl/" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://github.com" target="_blank" rel="noreferrer">
+        <a href="https://github.com/devmnl" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" rel="noreferrer">
+        <a href="https://wa.me/+5511932590460" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faWhatsapp} />
         </a>
       </div>

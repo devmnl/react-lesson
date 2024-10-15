@@ -1,6 +1,7 @@
 import logo from './logo-m.png';
 import './App.css';
 import Header from './Header';
+import Footer from './Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <p>Manoel Franco</p>
         
       </header>
+      <Footer/>
     </div>
   );
 }

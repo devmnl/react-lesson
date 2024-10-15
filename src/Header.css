@@ -1,9 +1,14 @@
 /* Estilos básicos do header */
 .header {
+  position: fixed; /* Mantém o cabeçalho fixo no topo */
+  top: 0; /* Posiciona o cabeçalho no topo */
+  left: 0; /* Garante que o cabeçalho comece do lado esquerdo */
+  width: 100%; /* O cabeçalho ocupará toda a largura da tela */
+  z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 0px;
     background-color: #1c1c1e;
     color: #fff;
   }
@@ -22,6 +27,7 @@
   .logo-img {
     width: 50px; /* Ajuste o tamanho conforme necessário */
     height: auto;  /* Mantém a proporção da imagem */
+    padding-left: 8px;
   }
   
   .navbar {
@@ -61,6 +67,7 @@
   background-clip: text;
   color: transparent; 
   font-weight: bold;
+  padding: 8px;
   }
   
   /* Estilos para telas menores (dispositivos móveis) */

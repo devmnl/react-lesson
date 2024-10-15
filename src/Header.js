@@ -28,9 +28,6 @@ const Header = () => {
         <a href="https://linkedin.com" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
-          <FontAwesomeIcon icon={faReact} />
-        </a>
         <a href="https://github.com" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faGithub} />
         </a>

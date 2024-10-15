@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 import logo from './logo-m.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faReact, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,18 +22,6 @@ const Header = () => {
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        {/* Seção de ícones sociais */}
-      <div className="social-icons">
-        <a href="https://www.linkedin.com/in/devmnl/" target="_blank" rel="noreferrer">
-          <FontAwesomeIcon icon={faLinkedin} />
-        </a>
-        <a href="https://github.com/devmnl" target="_blank" rel="noreferrer">
-          <FontAwesomeIcon icon={faGithub} />
-        </a>
-        <a href="https://wa.me/+5511932590460" target="_blank" rel="noreferrer">
-          <FontAwesomeIcon icon={faWhatsapp} />
-        </a>
-      </div>
       </nav>
       <div className="menu-toggle" onClick={toggleMenu}>
         {menuOpen ? '✕' : '☰'} {/* Alterna entre o ícone de menu e fechar */}

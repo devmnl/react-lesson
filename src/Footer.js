@@ -6,7 +6,7 @@ import { faLinkedin, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-i
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id='contact' className="footer">
       <div className="footer-container">
         {/* Seção de Contato */}
         <div className="contact-section">
@@ -40,15 +40,15 @@ const Footer = () => {
 
         {/* Redes Sociais */}
         <div className="social-icons">
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-          <a href="https://github.com" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-          <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" rel="noreferrer">
-            <FontAwesomeIcon icon={faWhatsapp} />
-          </a>
+        <a href="https://www.linkedin.com/in/devmnl/" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a href="https://github.com/devmnl" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+        <a href="https://wa.me/+5511932590460" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faWhatsapp} />
+        </a>
         </div>
       </div>
     </footer>

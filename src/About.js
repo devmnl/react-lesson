@@ -23,12 +23,6 @@ const About = () => {
           in the field, specializing in JavaScript, React, and various backend
           technologies. I thrive on turning ideas into reality through code.
         </p>
-        <p>
-          My journey in tech began with a fascination for how software can solve
-          real-world problems. I enjoy collaborating with teams and continuously
-          learning new technologies to enhance my skills and stay updated in
-          this ever-evolving industry.
-        </p>
 
         {/* Ícones das Tecnologias com Animação de Slide */}
         <div className="tech-icons-container">

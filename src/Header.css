@@ -29,13 +29,14 @@
   }
   
   .nav-links {
+    margin-top: 0px;
     list-style: none;
     display: flex;
     gap: 20px;
   }
 
   .nav-links li {
-    margin: 5px 0;
+    margin: 3px 0;
   }
   
   .nav-links li a {
@@ -95,7 +96,8 @@
   
 
   .social-icons {
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-left: 30px;
     display: flex;
     justify-content: center; /* Centraliza os ícones horizontalmente */
     gap: 15px; /* Espaço entre os ícones */

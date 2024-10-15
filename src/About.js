@@ -9,7 +9,7 @@ const About = () => {
     <section id="about" className="about">
       <div className="about-container">
         <h2>About Me</h2>
-        
+        <img src="manoel-logo.jpeg" alt="Avatar" class="avatar"></img>
         <p>
           Hello! I'm Manoel Franco, a software engineer passionate about creating dynamic web applications.
           With expertise in JavaScript, React, and various backend technologies, I love turning ideas into reality

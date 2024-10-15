@@ -16,7 +16,7 @@
   }
   
   .about p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 15px; /* Espaçamento entre os parágrafos */
     line-height: 1.6; /* Altura da linha para melhor legibilidade */
   }
@@ -36,4 +36,14 @@
     transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
     color: rgb(6, 196, 243);
   }
+
+  .avatar {
+    width: 130px; /* Define a largura do avatar */
+    height: 130px; /* Define a altura do avatar */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem ocupe todo o espaço sem distorcer */
+    margin-bottom: 30px;
+   
+  }
+  
   

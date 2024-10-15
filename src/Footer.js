@@ -42,7 +42,7 @@ const Footer = () => {
       <div className="footer-container">
         {/* Seção de Contato */}
         <div className="contact-section">
-          <h2>Contact Us</h2>
+          <h2>Contact Me</h2>
           <div className="contact-info">
             <div className="contact-item">
               <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />

@@ -20,4 +20,19 @@
     margin-bottom: 15px; /* Espaçamento entre os parágrafos */
     line-height: 1.6; /* Altura da linha para melhor legibilidade */
   }
+
+  .tech-icons {
+    margin-top: 30px; /* Espaçamento acima dos ícones */
+    display: flex; /* Flexbox para alinhar ícones em linha */
+    justify-content: center; /* Centraliza os ícones */
+    gap: 20px; /* Espaço entre os ícones */
+  }
+  
+  .tech-icons svg {
+    transition: transform 0.3s; /* Efeito de transição */
+  }
+  
+  .tech-icons svg:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+  }
   

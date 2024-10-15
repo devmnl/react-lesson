@@ -3,6 +3,7 @@
     color: #f3eded; /* Cor do texto */
     padding: 90px 80px; /* Espaçamento interno */
     text-align: center; /* Centraliza o texto */
+    padding-top: 46px;
   }
   
   .about-container {
@@ -16,9 +17,9 @@
   }
   
   .about p {
-    font-size: 18px;
-    margin-bottom: 15px; /* Espaçamento entre os parágrafos */
-    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    font-size: 17px;
+    margin-bottom: 14px; /* Espaçamento entre os parágrafos */
+    line-height: 1.4; /* Altura da linha para melhor legibilidade */
   }
 
   .tech-icons {

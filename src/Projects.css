@@ -1,0 +1,39 @@
+
+.projects-section {
+  background-color: #1c1c1e; /* Cor de fundo */
+  color: #f3eded; /* Cor do texto */
+  padding: 50px 60px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+}
+
+.projects-section h2 {
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  font-size: 28px; /* Tamanho da fonte do título */
+}
+
+.projects-list {
+  max-width: 1200px; /* Largura máxima do container */
+  margin: 0 auto; /* Centraliza o container */
+}
+
+.project-item {
+  background-color: #2a2a2c; /* Cor de fundo dos itens */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.project-item h3 {
+  font-size: 22px; /* Tamanho da fonte do título do projeto */
+  margin-bottom: 10px;
+}
+
+.project-item p {
+  font-size: 17px; /* Tamanho da fonte da descrição */
+  margin-bottom: 10px;
+}
+
+.project-item a {
+  color: #61dafb; /* Cor do link */
+  text-decoration: none; /* Remove sublinhado */
+}

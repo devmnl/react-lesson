@@ -25,8 +25,9 @@ function App() {
         <p>Manoel Franco</p>
         
       </header>
-      <About />
         <Projects />
+      <About />
+
         <Footer/>
     </div>
   );

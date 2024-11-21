@@ -1,13 +1,14 @@
 .about {
     background-color: #1c1c1e; /* Cor de fundo */
     color: #f3eded; /* Cor do texto */
-    padding: 400px 60px; /* Espaçamento interno */
+    padding: 40px 60px; /* Espaçamento interno */
     text-align: center; /* Centraliza o texto */
     padding-top: 50px;
   }
   
   .about-container {
-    max-width: 1200px; /* Largura máxima do container */
+    /* Largura máxima do container */
+    min-height: 50vh;
     margin: 0 auto; /* Centraliza o container */
   }
   
@@ -17,9 +18,9 @@
   }
   
   .about p {
-    font-size: 17px;
-    margin-bottom: 18px; /* Espaçamento entre os parágrafos */
-    line-height: 1.2; /* Altura da linha para melhor legibilidade */
+    font-size: 20px;
+    margin-bottom: 20px; /* Espaçamento entre os parágrafos */
+    line-height: 1.5; /* Altura da linha para melhor legibilidade */
   }
 
   .tech-icons-container {
